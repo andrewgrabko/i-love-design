@@ -1,0 +1,200 @@
+
+body{
+	font: 400 30px/1.4 'Segoe UI', sans-serif;
+	color: #464b4f;
+	text-align: center;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-intro{
+	background:  #23232e;
+	padding-top: 80px;
+}
+.ba-logo{
+	display: inline-block;
+}
+.ba-page-title{
+	font:700 80px/30px 'Segoe UI', sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 185px 0 0;
+}
+.ba-page-subtitle{
+	font: 400 18px/1.66 'Segoe UI', sans-serif;
+	color:  #ffffff;
+	margin: 75px 0 0;
+}
+
+
+
+.ba-scroll{
+	display: inline-block;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	width: 45px;
+	height: 45px;
+	margin: 182px 0 50px;
+}
+.ba-scroll:hover{
+	border-radius: 50%;
+	border: 2px solid blue;
+	border-width: 2px;
+	background: fuchsia;
+		
+}
+.ba-scroll:before{
+	display: inline-block;
+    content: '';
+    position: relative;
+    left: 2px;
+    top: -10px;
+    width: 10px;
+    height: 2px;
+    background: #fff;
+    transform: rotate(40deg);
+}
+.ba-scroll:after{
+	display: inline-block;
+    content: '';
+    position: relative;
+    right: 2px;
+    top: -10px;
+    width: 10px;
+    height: 2px;
+    background: #fff;
+    transform: rotate(-40deg);
+}
+.ba-scroll:hover:before{
+		background: blue;
+}
+.ba-scroll:hover:after{
+		background:blue;
+}
+.ba-container2{
+	margin: 0;
+	background:#fff url('../img/bg.png');
+	background-size: cover;
+}
+.first-section{
+	max-width: 860px ;
+	margin: 0 auto;
+	padding-top: 116px;
+	text-align: center;
+}
+p{
+	margin: 0;
+}
+p:first-of-type{
+	margin-bottom: 42px;
+}
+.second-section{
+	font-size: 0;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 100px;
+	max-width: 1047px;
+	padding-top: 44px;
+}
+.ba-title-section{
+	font:700 80px/36px 'Segoe UI', sans-serif;
+	color: #464b4f;
+	text-transform: uppercase;
+}
+.second-section aside:nth-child(3){
+	margin: 0 2%;
+}
+.column{
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 30%;
+	vertical-align: top;
+	padding-top: 22px;
+}
+.column h4{
+	font: 700 18px/42px 'Segoe UI', sans-serif;
+	color:  #464b4f;
+	text-transform: uppercase;
+	margin: 0;
+	text-align: left;
+}
+.column p{
+	font: 400 18px/30px 'Segoe UI', sans-serif;
+	color:  #888a8b;
+	margin: 0;
+	display: inline-block;
+	text-align: left;
+	padding-top: 8px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
